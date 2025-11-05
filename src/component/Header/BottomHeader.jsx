@@ -6,7 +6,7 @@ import { NavLink } from 'react-router';
 
 const BottomHeader = () => {
     return (
-        <div className='border-b border-gray-200'>
+        <div className='border-b border-gray-200 sticky top-0 z-50 bg-white'>
             <div className='container mx-auto py-3 flex items-center justify-between'>
                 <div className='flex items-center justify-between gap-7'>
                     <button className='btn bg-[#29A56C] text-white text-lg font-medium rounded-md'> <FaThLarge size={16}></FaThLarge>Browse All Categories <IoIosArrowDown></IoIosArrowDown></button>

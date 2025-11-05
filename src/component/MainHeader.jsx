@@ -5,11 +5,11 @@ import BottomHeader from './Header/BottomHeader';
 
 const MainHeader = () => {
     return (
-        <div>
+        <header className='w-full'>
             <div className='hidden lg:block'><UpHeader></UpHeader></div>
             <div><LowHeader></LowHeader></div>
-            <div className='hiddem lg:block'><BottomHeader></BottomHeader></div>
-        </div>
+            <div className='hidden lg:block sticky top-0 z-50 bg-white '><BottomHeader></BottomHeader></div>
+        </header>
     );
 };
 

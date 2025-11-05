@@ -1,9 +1,10 @@
 import React from 'react';
+import HeroCardSlider from '../component/Header/HeroCardSlider';
 
 const Home = () => {
     return (
         <div>
-            this is home
+            <HeroCardSlider></HeroCardSlider>
         </div>
     );
 };
